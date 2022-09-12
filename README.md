@@ -16,4 +16,4 @@ Working on this paper
 
 ## Ensemble Model Selection Framework for Meta-Labeling (Working Paper)
 
-Working on this paper
+This dissertation investigates the development of a framework to select machine learning models for meta-labeling and how ensemble learning can be incorporated. Meta-labeling consists of a primary model generating classifications and a secondary model labelling those classifications in terms of their correctness. For the meta-labeling ensembles, different models are selected and compared in the experiments. Since how to select those models is the research subject, the aim is to provide a guide to combining secondary models with ensemble learning.
