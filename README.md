@@ -16,12 +16,12 @@ Separating the side and size of a position allows for sophisticated strategy str
 
 ## Calibration and Position Sizing (Working Paper)
 
-**By Illya Barziy, Jacques Francois Joubert, Michael Meyer**
+**By Michael Meyer, Illya Barziy, Jacques Francois Joubert **
 
 Meta-labeling allows for a new mechanism to determine the position size of a trade. The secondary model produces an estimate of the probability of a profitable trade, that can be used to size the positions. Probability calibration can also be applied to transform these estimates closer to true posterior probabilities as an in-between step, before sizing the position. This article investigates six position sizing algorithms from predicted probabilities for uncalibrated and calibrated probabilities. The algorithms used in this article are established methods used in practice and variations thereof, and one novel method is proposed called Sigmoidal Optimal Position Sizing (SOPS). The position sizing methods are evaluated and compared through strategy metrics such as the Sharpe ratio and maximum drawdown. The results indicate that the various methods all have unique advantages and drawbacks. Furthermore, it is shown that fixed position sizing methods significantly gain performance when calibration is applied, while methods that estimate their functions from the training data do not gain significant advantage from applying probability calibration.
 
-## Ensemble Model Selection Framework for Meta-Labeling (Working Paper)
+## [Ensemble Meta-Labeling (Journal of Financial Data Science, Winter 2022)](https://jfds.pm-research.com/content/early/2022/12/14/jfds.2022.1.114)
 
-**By Dennis Thumm, Jacques Francois Joubert, Paolo Barucca**
+**By Dennis Thumm, Paolo Barucca, Jacques Francois Joubert**
 
-This dissertation investigates the development of a framework to select machine learning models for meta-labeling and how ensemble learning can be incorporated. Meta-labeling consists of a primary model generating classifications and a secondary model labelling those classifications in terms of their correctness. For the meta-labeling ensembles, different models are selected and compared in the experiments. Since how to select those models is the research subject, the aim is to provide a guide to combining secondary models with ensemble learning.
+This study systematically investigates different ensemble methods for meta-labeling in finance and presents a framework to facilitate the selection of ensemble learning models for this purpose. Experiments were conducted on the components of information advantage and modeling for false positives to discover whether ensembles were better at extracting and detecting regimes and whether they increased model efficiency. The authors demonstrate that ensembles are especially beneficial when the underlying data consist of multiple regimes and are nonlinear in nature. The authors’ framework serves as a starting point for further research. They suggest that the use of different fusion strategies may foster model selection. Finally, the authors elaborate on how additional applications, such as position sizing, may benefit from their framework.
