@@ -16,7 +16,7 @@ Separating the side and size of a position allows for sophisticated strategy str
 
 ## Calibration and Position Sizing (Working Paper)
 
-**By Michael Meyer, Illya Barziy, Jacques Francois Joubert **
+**By Michael Meyer, Illya Barziy, Jacques Francois Joubert**
 
 Meta-labeling allows for a new mechanism to determine the position size of a trade. The secondary model produces an estimate of the probability of a profitable trade, that can be used to size the positions. Probability calibration can also be applied to transform these estimates closer to true posterior probabilities as an in-between step, before sizing the position. This article investigates six position sizing algorithms from predicted probabilities for uncalibrated and calibrated probabilities. The algorithms used in this article are established methods used in practice and variations thereof, and one novel method is proposed called Sigmoidal Optimal Position Sizing (SOPS). The position sizing methods are evaluated and compared through strategy metrics such as the Sharpe ratio and maximum drawdown. The results indicate that the various methods all have unique advantages and drawbacks. Furthermore, it is shown that fixed position sizing methods significantly gain performance when calibration is applied, while methods that estimate their functions from the training data do not gain significant advantage from applying probability calibration.
 
